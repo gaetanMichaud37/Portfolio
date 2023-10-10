@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .intro {
+            text-align: center;
+            padding: 20px;
+            background-color: #bb57a5;
+        }
+        .project {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .project img {
+            max-width: 40%;
+            height: auto;
+        }
+        .project video {
+            max-width: 25%;
+            height: auto;
+        }
+        .image-container {
+        display: flex; /* Utiliser un conteneur flex pour afficher les images côte à côte */
+        justify-content:center; /* Espacement égal entre les images */
+        align-items: center; /* Centrer verticalement les images */
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Portfolio</h1>
+        <p>I am Gaëtan Michaud, and I love create things... useful or not.</p>
+        <p>Here, some of my different projects</p>
+    </div>
+
+    <!-- Projet 1 : Application Téléphone -->
+    <div class="project">
+        <h2>Expense Management Mobile App</h2>
+        <img src="./assets/images/app principale.jpg" alt="Image du projet 1">
+        <p>A mobile application I developed to efficiently manage personal expenses.</p>
+        <p>It's a visualization tool where I can update the total amount that correspond to my account, but also the different amounts for each item/category that I want.</p>
+    </div>
+
+    <!-- Projet 2 : Montage Électrique -->
+    <div class="project">
+        <h2>Dual Source For Headphones</h2>
+        <img src="./assets/images/double source.jpg" alt="Image du projet 2">
+        <p>An electrical setup allowing mixing two different audio sources for a pair of headphones. This allows me to play electric drums while listening to music.</p>
+    </div>
+
+    <!-- Projet 3 : Gant Musical -->
+    <div class="project">
+        <h2>Musical Glove</h2>
+        <img src="./assets/images/musical glove.jpg" alt="Image du projet 3">
+        <p>An innovative musical glove that lets you create music based on the position of your hand and fingers. Here's a demonstration video of my prototype:</p>
+        <video controls>
+            <source src="./assets/videos/gant_demo.mp4" type="video/mp4">
+            Your browser does not support the video.
+        </video>
+    </div>
+
+    <!-- Projet 4 : Pédale pour Souris -->
+    <div class="project">
+        <h2>Mouse Wheel Pedal Replacement</h2>
+        <div class="image-container">
+            <img src="./assets/images/pedal scroll eclaté.jpg" alt="Project 4 Image 1">
+            <img src="./assets/images/pedale scroll.jpg" alt="Project 4 Image 2">
+        </div>
+        <p>A practical pedal designed to replace the mouse wheel, making it easy to use with your feet.This leaves your hands free to take notes, eat or whatever while you read.</p>
+    </div>
+
+</body>
+</html>
