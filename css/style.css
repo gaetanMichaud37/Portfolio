@@ -838,4 +838,11 @@ a:focus {
 .footer_section .link_box a:hover {
   color: #85310c;
 }
+
+.keywords {
+  font-weight: bold; /* Texte en gras pour les mots-clés */
+  color: #610000; /* Couleur personnalisée pour les mots-clés */
+  font-size: 14px;
+
+}
 /*# sourceMappingURL=style.css.map */
